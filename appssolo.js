@@ -5,9 +5,9 @@ $(document).ready(function() {
     var countBlue = 0;
 
 
-    $(':button').click(function(event) {
+    $('.color-button').click(function(event) {
           var buttonClicked = $(this);
-
+          console.log(this);
         console.log('Some button was clicked');
 
         createBoxes(buttonClicked);
